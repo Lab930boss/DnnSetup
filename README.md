@@ -4,12 +4,12 @@ This page includes Deep Learning environment setup instruction
 
 ## CUDA setup 
 1. Nvidia Graphics driver installation
-  $ sudo add-apt-repository ppa:graphics-drivers/ppa
-  $ sudo apt-get update
-  $ sudo apt-get install nvidia-375
+  $ sudo add-apt-repository ppa:graphics-drivers/ppa  <br />
+  $ sudo apt-get update  <br />
+  $ sudo apt-get install nvidia-375  <br />
 
   After this, reboot 
-  $ sudo reboot
+  $ sudo reboot  <br />
   
   When u type  $ nvidia-smi   , you should see the following message. 
   
