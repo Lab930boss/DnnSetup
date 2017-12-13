@@ -13,7 +13,7 @@ This page includes Deep Learning environment setup instruction
   
   When u type  $ nvidia-smi   , you should see the following message. 
   
-![Alt text](relative/path/to/img.jpg?raw=true "Title")
+![Alt text](/nvidia driver info.png?raw=true "Title")
 
 ## TensorFlow setup 
 - Python 3.6.3 is recommended 
