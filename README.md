@@ -13,7 +13,11 @@ This page includes Deep Learning environment setup instruction
   
   When u type  $ nvidia-smi   , you should see the following message. 
   
-![Alt text](https://github.com/Lab930boss/DnnSetup/blob/master/nvidia%20driver%20info.png?raw=true "GPU info")
+![Alt text](https://github.com/Lab930boss/DnnSetup/blob/master/nvidia%20driver%20info.png?raw=true "GPU info") <br />
+
+2. CUDA toolkit installation  <br />
+$ sudo sh cuda_8.0.61_375.26_linux.run <br />
+
 
 ## TensorFlow setup 
 - Python 3.6.3 is recommended 
