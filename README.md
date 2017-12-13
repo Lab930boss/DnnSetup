@@ -3,7 +3,7 @@ This page includes Deep Learning environment setup instruction
 
 
 ## CUDA setup 
-1. Nvidia Graphics driver installation
+1. Nvidia Graphics driver installation  <br />
   $ sudo add-apt-repository ppa:graphics-drivers/ppa  <br />
   $ sudo apt-get update  <br />
   $ sudo apt-get install nvidia-375  <br />
