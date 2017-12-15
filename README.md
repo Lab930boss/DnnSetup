@@ -61,8 +61,23 @@ This instruction is for linux 16.04 with Nivida GPU
   $ sudo chmod a+r /usr/local/cuda-8.0/lib64/libcudnn* <br />
   $ sudo chmod a+r /usr/local/cuda-8.0/include/cudnn.h <br />
 
+## NVIDIA CUDA Profile Tools Interface 
+  sudo apt-get install libcupti-dev <br />
+
 ## TensorFlow setup 
-- Python 3.6.3 is recommended 
+  Install python 3.6.3 first. Keep Enterng and select yes for all question during installation process <br />
+  $ bash Anaconda3-4.3.0-Linux-x86_64.sh <br /> 
+  $ source ~/.bashrc <br />
+  
+  Run python and check version
+  $ python
+  Python 3.6.0 |Anaconda 4.3.0 (64-bit)| (default, Dec 23 2016, 12:22:00)  <br />
+  [GCC 4.4.7 20120313 (Red Hat 4.4.7-1)] on linux <br />
+  Type "help", "copyright", "credits" or "license" for more information. <br />
+  >>> <br />
+
+  Install tensorflow following instruction in the following link
+  https://www.tensorflow.org/install/install_linux
 
 ## TensorFlow tutorial & example 
 
