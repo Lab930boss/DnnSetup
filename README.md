@@ -74,10 +74,11 @@ This instruction is for linux 16.04 with Nivida GPU
   Python 3.6.0 |Anaconda 4.3.0 (64-bit)| (default, Dec 23 2016, 12:22:00)  <br />
   [GCC 4.4.7 20120313 (Red Hat 4.4.7-1)] on linux <br />
   Type "help", "copyright", "credits" or "license" for more information. <br />
-  >>> <br />
+  
 
   Install tensorflow following instruction in the following link <br />
   https://www.tensorflow.org/install/install_linux <br />
+  Note: There are multiple installatio method introduced in the website. Just use pip3 based installation unless you really want isolated development environment.
 
 ## TensorFlow tutorial & example 
 
