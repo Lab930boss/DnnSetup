@@ -81,6 +81,14 @@ This instruction is for linux 16.04 with Nivida GPU
   Note: There are multiple installatio method introduced in the website. Just use pip3 based installation unless you really want isolated development environment.
 
 ## TensorFlow tutorial & example 
+  Here is the best tensorflow tutorial  <br />
+  https://github.com/Lab930boss/DeepLearningZeroToAll.git   <br />
+
+  Though the vidoe lecture is in Korean, the example is self-contained and well coded.   <br />
+  You will immediately tell what each lab does when you read lab project file name   <br />
+  Fyi there is lecture note link. The lecture note is written in English   <br />
+  https://goo.gl/jPtWNt
+
 
 ## Yolo2 darknet
 
