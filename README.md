@@ -69,15 +69,15 @@ This instruction is for linux 16.04 with Nivida GPU
   $ bash Anaconda3-4.3.0-Linux-x86_64.sh <br /> 
   $ source ~/.bashrc <br />
   
-  Run python and check version
-  $ python
+  Run python and check version <br />
+  $ python <br />
   Python 3.6.0 |Anaconda 4.3.0 (64-bit)| (default, Dec 23 2016, 12:22:00)  <br />
   [GCC 4.4.7 20120313 (Red Hat 4.4.7-1)] on linux <br />
   Type "help", "copyright", "credits" or "license" for more information. <br />
   >>> <br />
 
-  Install tensorflow following instruction in the following link
-  https://www.tensorflow.org/install/install_linux
+  Install tensorflow following instruction in the following link <br />
+  https://www.tensorflow.org/install/install_linux <br />
 
 ## TensorFlow tutorial & example 
 
