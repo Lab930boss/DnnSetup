@@ -22,14 +22,44 @@ This instruction is for linux 16.04 with Nivida GPU
   $ sudo sh cuda_8.0.61_375.26_linux.run <br />
  
 3. Run folloiinwg commands for the environment settings
-$ echo -e "\n## CUDA and cuDNN paths"  >> ~/.bashrc     <br />
-$ echo 'export PATH=/usr/local/cuda-8.0/bin:${PATH}' >> ~/.bashrc     <br />
-$ echo 'export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64:${LD_LIBRARY_PATH}' >> ~/.bashrc     <br />
+  $ echo -e "\n## CUDA and cuDNN paths"  >> ~/.bashrc     <br />
+  $ echo 'export PATH=/usr/local/cuda-8.0/bin:${PATH}' >> ~/.bashrc     <br />
+  $ echo 'export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64:${LD_LIBRARY_PATH}' >> ~/.bashrc     <br />
 
-Check if the following lines are created in the ~./bashrc
+  Check if the following lines are created in the ~./bashrc <br />
 
-export PATH = /usr/local/cuda-8.0/bin : $ { PATH } <br />
-export LD_LIBRARY_PATH = /usr/local/cuda-8.0/lib64 : $ { LD_LIBRARY_PATH } <br />
+  export PATH = /usr/local/cuda-8.0/bin : $ { PATH } <br />
+  export LD_LIBRARY_PATH = /usr/local/cuda-8.0/lib64 : $ { LD_LIBRARY_PATH } <br />
+
+4. Run following commands to check if CUDA is installed properly <br />
+  $ source ~/.bashrc  <br />
+  $ nvcc --version  <br />
+  nvcc: NVIDIA (R) Cuda compiler driver  <br />
+  Copyright (c) 2005-2016 NVIDIA Corporation  <br />
+  Built on Tue_Jan_10_13:22:03_CST_2017  <br />
+  Cuda compilation tools, release 8.0, V8.0.61  <br />
+
+5. As a final step of CUDA installation, check the CUDA path
+  $ which nvcc  
+  /usr/local/cuda-8.0/bin/nvcc
+
+## CuDNN v5.1 
+1. Join the site in the following link and download CuDNN v5.1 Library (cudnn-8.0-linux-x64-v5.1.tgz) for Linux
+  https://developer.nvidia.com/rdp/cudnn-download
+
+  You can also download cudnn-8.0-linux-x64-v5.1.tgz  from the following link <br />
+  https://drive.google.com/open?id=1f_HjxCg30BCD9r8OfhtsaXyKChhAiy8s <br />
+
+2. Run the following commands
+ Note: If nvcc result is not "/usr/local/cuda-8.0/bin/nvcc", use nvcc output instead of "/usr/local/cuda-8.0/bin/nvcc" after "which nvcc"
+
+  $ tar xzvf cudnn-8.0-linux-x64-v5.1.tgz <br />
+  $ which nvcc <br />
+  /usr/local/cuda-8.0/bin/nvcc <br />
+  $ sudo cp cuda/lib64/* /usr/local/cuda-8.0/lib64/ <br />
+  $ sudo cp cuda/include/* /usr/local/cuda-8.0/include/ <br />
+  $ sudo chmod a+r /usr/local/cuda-8.0/lib64/libcudnn* <br />
+  $ sudo chmod a+r /usr/local/cuda-8.0/include/cudnn.h <br />
 
 ## TensorFlow setup 
 - Python 3.6.3 is recommended 
