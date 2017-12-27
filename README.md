@@ -89,8 +89,12 @@ This instruction is for linux 16.04 with Nivida GPU
   Fyi there is lecture note link. The lecture note is written in English   <br />
   https://goo.gl/jPtWNt
 
+## OpenCV setup instruction for Ubuntu
+https://github.com/jayrambhia/Install-OpenCV
+
 
 ## Yolo2 darknet
+
 
 ## FaceNet
 
