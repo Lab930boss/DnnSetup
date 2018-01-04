@@ -24,7 +24,7 @@ This instruction is for linux 16.04 with Nivida GPU
   You will see long license. Just keep entering until you see the following questions. 
   Please answer the questions as follows
   
-  ![Alt text](https://github.com/Lab930boss/DnnSetup/blob/master/nvidia%20driver%20info.png?raw=true "GPU info") <br />
+  ![Alt text](https://github.com/Lab930boss/DnnSetup/blob/master/CUDA_toolkit.png?raw=true "CUDA Toolkit install") <br />
     
 3. Run folloiinwg commands for the environment settings <br />
   $ echo -e "\n## CUDA and cuDNN paths"  >> ~/.bashrc     <br />
