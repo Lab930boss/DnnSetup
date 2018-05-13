@@ -99,7 +99,7 @@ https://github.com/jayrambhia/Install-OpenCV
 
 
 ## Yolo2 darknet
-
+all about Yolo https://github.com/AlexeyAB/darknet#how-to-train-tiny-yolo-to-detect-your-custom-objects
 
 ## FaceNet
 
