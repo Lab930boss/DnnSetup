@@ -101,5 +101,7 @@ https://github.com/jayrambhia/Install-OpenCV
 ## Yolo2 darknet
 all about Yolo https://github.com/AlexeyAB/darknet#how-to-train-tiny-yolo-to-detect-your-custom-objects
 
+Best Yolo tutorial website
+https://blog.paperspace.com/how-to-implement-a-yolo-object-detector-in-pytorch/
 ## FaceNet
 
